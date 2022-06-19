@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Quicksand:wght@500;600;700&family=Roboto:wght@300;400&display=swap');
+* {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.respon {
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+}
+pre * {
+  font-family: 'Inconsolata', monospace;
+}
+h1 {
+  font-size: 19px;
+}
+h2 {
+  font-size: 17px;
+}
+h3 {
+  font-size: 15px;
+}
+h4 {
+  font-size: 13px;
+}
+h5 {
+  font-size: 11px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, ol {
+  margin-left: 18px;
+}
+main {
+  padding-top: 55px;
+}
+main nav {
+  position: fixed;
+  padding: 12px;
+  top: 50px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  transition: .3s;
+  background-color: #ffffff;
+}
+main nav a {
+  display: block;
+  padding: 7px;
+}
+main nav a .icons{
+  margin-right: 6px;
+}
+article {
+  padding: 12px;
+  margin-left: 200px;
+  transition: .3s;
+}
+article p, article h2, article h3, article h4, article h5, article ul, article ol, article table, article img {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+article blockquote {
+  border-left: 4px solid #389fff;
+  padding: 3px;
+  padding-left: 7px;
+  background-color: rgba(86, 168, 255, 0.2);
+  border-radius: 0px 3px 3px 0px;
+}
+article img {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+article a {
+  color: #389fff;
+}
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  padding: 8px 15px;
+  background-color: #ffffff;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 5px;
+  z-index: 99999999;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .icons-bars {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  main nav {
+    width: 100%;
+    margin-left: -500px;
+  }
+  main article {
+    margin-left: 0px;
+  }
+  header .icons-bars {
+    margin-right: 9px;
+    display: inline-block;
+  }
+}
+/* ==== [ Add CSS Extension ] ==== */
+pre code.hljs{
+    font-family: 'Inconsolata', monospace;
+    display:block;
+    overflow-x:auto;
+    padding:1em;
+    border-radius: 3px;
+}
+code.hljs {
+    padding:3px 5px
+}
+.hljs {
+    font-family: 'Inconsolata', monospace;
+    background:#272727;
+    color:#ffffff
+}
+.hljs * {
+    font-family: 'Inconsolata', monospace;
+}
+.hljs-comment {
+    color:#3c9d59
+}
+.hljs-punctuation,.hljs-tag {
+    color:rgba(255, 255, 255, 0.667)
+}
+.hljs-tag .hljs-attr,.hljs-tag .hljs-name {
+    color:rgb(49, 114, 255)
+}
+.hljs-attribute,.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-name,.hljs-selector-tag {
+    color: #0081c2;
+}
+.hljs-deletion,.hljs-number,.hljs-quote,.hljs-selector-class,.hljs-selector-id,.hljs-string,.hljs-template-tag,.hljs-type{
+    color:#d14900
+}.hljs-section,.hljs-title{
+    color:#ffbb00;
+}.hljs-link,.hljs-operator,.hljs-regexp,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-symbol,.hljs-template-variable,.hljs-variable{
+    color:#389fff
+}.hljs-literal{
+    color:#695
+}.hljs-addition,.hljs-built_in,.hljs-bullet,.hljs-code{
+    color:#397300
+}.hljs-meta{
+    color:#1f7199
+}.hljs-meta .hljs-string{
+    color:#38a
+}.hljs-emphasis{
+    font-style:italic
+}.hljs-strong{
+    font-weight:700
+}
+.text-align-center {
+    text-align: center;
+}

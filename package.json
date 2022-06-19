@@ -1,0 +1,30 @@
+{
+  "name": "markdown-website-blog",
+  "version": "1.0.0",
+  "description": "Create Your Blog Only With Markdown Text",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-center-text": "^1.0.4",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gituhb.com/ernestoyoofi/markdown-web"
+  },
+  "keywords": [
+    "Markdown",
+    "Website",
+    "Blogger",
+    "Dokumentation"
+  ],
+  "author": "Ernestoyoofi",
+  "license": "MIT"
+}
